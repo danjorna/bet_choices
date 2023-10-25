@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #1e293b; 
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,38 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1 {
+  text-align: center; 
+  margin: 50; 
+  margin-bottom: 100;
+  color: #ffffff;
+}
+
+h2 {
+  margin: 50; 
+  color: #ffffff;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); 
+  gap: 20px; 
+}
+
+.grid-item {
+  background-color: lightblue;
+  padding: 10px;
+  border: 1px solid #ccc;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+
+}
+
+.grid-item h3 {
+  align-items: center;
+  justify-content: center; 
+  margin: 0
 }
